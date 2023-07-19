@@ -1,12 +1,12 @@
 # parcel
 .parcel-cache
 node_modules
-# package.json
-# package-lock.json
-# .parcelrc
+package.json
+package-lock.json
+.parcelrc
 
 # files
-# *.html
-# *.scss
-# *.map
-# dist/*js
+*.html
+*.scss
+*.map
+dist/*js
