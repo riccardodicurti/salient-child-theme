@@ -1,0 +1,29 @@
+{
+  "name": "salient-child-theme",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel watch index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccardodicurti/salient-child-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riccardodicurti/salient-child-theme/issues"
+  },
+  "homepage": "https://github.com/riccardodicurti/salient-child-theme#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "parcel-namer-custom": "^0.2.0"
+  },
+  "parcel-namer-custom": {
+    ".css$": "[name].[type]"
+  }
+}
